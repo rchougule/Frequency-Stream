@@ -1,0 +1,138 @@
+
+.container
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  min-height: 100%;
+  height: auto;
+  width: 100%;
+  margin: 0;
+  background-color: #1D171C;
+}
+
+.pageHeader
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: 	#D99656;
+  -webkit-box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+}
+
+.titleHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.5rem;
+  color: white;
+  cursor: default;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+
+.frequencyBoard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+.floatLeft {
+  display: inline-block;
+  margin-left: 10%;
+  width: 40%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.floatRight {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tabularData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  margin-left: -40px;
+}
+
+.singleRow {
+  width: 80%;
+  border-top: 1px solid gray;
+}
+
+#countInput {
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition-duration: 0.5s;
+  -webkit-box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+  font-size: 1.2rem;
+}
+
+#countInput:focus {
+  -webkit-box-shadow: 0px 2px 28px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 2px 28px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 2px 28px 0px rgba(255, 255, 255, 0.75);
+}
+
+#countInput:hover {
+  transition-duration: 0.5s;
+  -webkit-box-shadow: 0px 2px 28px 0px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 0px 2px 28px 0px rgba(255, 255, 255, 0.75);
+  box-shadow: 0px 2px 28px 0px rgba(255, 255, 255, 0.75);
+}
+
+#submitButton {
+  height: 42px;
+  border: none;
+  margin-left: 2px;
+  color: white;
+  min-width: 80px;
+  background-color: 	#D99656;
+  transition-duration: 0.5s;
+  font-size: 1.2rem;
+  -webkit-box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 28px 0px rgba(0,0,0,0.75);
+}
+
+#submitButton:hover {
+  background-color: 	rgb(187, 128, 72);
+}
+
+#submitButton:active {
+  background-color: 	rgb(156, 106, 60);
+}

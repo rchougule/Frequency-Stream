@@ -4,7 +4,6 @@ const { Writable } = require('stream');
 
 /**
  * 
- * @param {*} N contains the requested records count.
  * 1. A Writable stream is created to continuously calcualte the frequency as and when the data arrives from the GET request.
  * 2. This prevents the memory from overflooding as it won't store the whole data received via the get request.
  * 3. Chunks are analysed as and when they are received and only the required data is stored, i.e. Object which stores the frequency of the words
