@@ -9,7 +9,7 @@
      * if result available, render the array
      * else, render empty array
      */
-    return fetch('http://localhost:8080/getWords?words=' + wordCount)
+    return fetch('http://18.188.193.86:8080/getWords?words=' + wordCount)
     .then((result) => {
        return result.json();
     })
