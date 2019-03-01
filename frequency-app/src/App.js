@@ -84,7 +84,7 @@ class App extends Component {
           <div className="titleHeader">Frequency Manza!</div>
         </div>
         <div className="inputSection">
-          <input type="number" id="countInput" value={inputVal} onChange={this.handleChange}></input>
+          <input type="number" id="countInput" placeholder="Enter number of records to fetch..." value={inputVal} onChange={this.handleChange}></input>
           <button id="submitButton" onClick={this.handleSubmit}>Fetch!</button>
         </div>
         <div className="frequencyBoard">
